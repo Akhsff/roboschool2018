@@ -62,7 +62,13 @@ Move a six-wheeled differential drive mobile robot along the colored line using 
    # control the traffic lights
    rosrun car_gazebo light_controller.py
    ```
+4. Run the P-controller:
+   # Gazebo simulation
+   roslaunch car_gazebo track.launch
 
+   # control
+   rosrun car_gazebo follower.py
+   
 ## Useful Resources
 
 Presentations:
